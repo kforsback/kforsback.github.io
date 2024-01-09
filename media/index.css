@@ -6,9 +6,11 @@ body {
 
 /* div */
 div[id="wrapper"] {
-	background-image: url('background.png');
+	/* background-image: url('background.png'); */
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-attachment: fixed;
+	background-position: top center;
+	/* background-size: 100%; */
 	/* padding: 0 2rem; */
 }
 div[id="page"] {
