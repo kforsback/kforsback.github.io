@@ -29,13 +29,16 @@ p {
 	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
 	text-align: center;
 }
+p[class~="quote"] {
+	color: #777777;
+}
 span[class~="bright"] {
 	color: #cccccc;
 }
 hr {
-	margin: 2rem;
+	margin: 2rem 0;
 	border: 0;
-	border-top: thin solid #0099ff;
+	border-top: thick solid #171b1e;
 }
 
 div[class~="pure-menu"] {
